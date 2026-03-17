@@ -8,9 +8,8 @@ function App() {
 
   return (
    <div>
-    <h1>JYOTI PANDEY</h1>
-    <h2>PRINT HERE</h2>
-    <user></user>
+    <h1>user variable with jsx</h1>
+    <h2>value of variable is [name]</h2>
     </div>
   )
 }
