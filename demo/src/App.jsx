@@ -13,10 +13,4 @@ function App() {
     </div>
   )
 }
-function demo()
-{
-  return(
-    <h1>STATEMENT HERE</h1>
-  )
-}
-export default demo
+export default App
