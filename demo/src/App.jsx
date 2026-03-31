@@ -8,9 +8,8 @@ function App() {
 
   return (
    <div>
-    <h1>user variable with jsx</h1>
-    <h2>value of variable is [name]</h2>
-    </div>
+    <h1>WELCOME IN NEW PROJECT</h1>
+  </div>
   )
 }
 export default App
