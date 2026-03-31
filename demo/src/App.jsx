@@ -8,6 +8,7 @@ function App() {
 
   return (
    <div>
+    <button onclick="callfun()">okay</>
     <h1>WELCOME IN NEW PROJECT</h1>
   </div>
   )
