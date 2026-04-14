@@ -5,27 +5,18 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const name="abcd";
-  let x=10;
-  let y=20;
-function detail()
-{
-  return "JYOTI PANDEY";
-}
-function sum(a,b)
-{
-  return a+b;
-}
-   return (
-     <div>
-     <h1>user variable with jsx</h1>
-     <h2>value of variable is [name]</h2>
-     <h3>{x+y}</h3>
-     <h3>use of fuctions with jsx</h3>
-     <h3>{detail()}</h3>
-     <h3>operations with jsx</h3>
-     <h3>parameter function {sum(12,13)}</h3>
-     </div>
-  )
+  let data="new"
+  function fun()
+  {
+    data="new value"
+    alert(data)
+  }
+return(
+  <>
+  <h1>State of Variable</h1>
+  <h1>{data}</h1>
+  <button onClick={fun}>click</button>
+  </>
+)
 }
 export default App
